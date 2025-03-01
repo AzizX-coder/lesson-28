@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    font-family: 'Roboto';
+}
+
+header {
+    width: 100%;
+    height: 46px;
+    background-color: rgba(243, 215, 183, 1);
+    display: flex;
+}
+
+.headerimg {
+    margin-top: 22px;
+    margin-left: 50px;
+}
+
+.headera {
+    margin-top: 27px;
+}
+
+.a {
+    text-decoration: none;
+    color: rgba(51, 51, 51, 1);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.headerbox {
+    width: 100%;
+    height: 674px;
+    background-color: rgba(243, 215, 183, 1);
+    padding-top: 130px;
+}
+
+.boxh1 {
+    margin-left: 50px;
+}
+
+.h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.boxp {
+    margin-top: 74px;
+    margin-left: 50px;
+}
+
+.p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.boximg {
+    animation-name: boximg;
+    animation: boximg 3s linear infinite;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@keyframes boximg {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.boximg1 {
+    position: absolute;
+    z-index: 1;
+    left: 730px;
+    top: 176px;
+}
+
+.container {
+    display: flex;
+}
+
+.container2 {
+    width: 100%;
+    height: 510px;
+    background-color: rgba(201, 155, 103, 1);
+    margin-top: 216px;
+}
+
+.imgcontainer {
+    position: absolute;
+    z-index: 1;
+    left: 820px;
+    top: 1297px;
+}
+
+footer {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    background-color: rgba(243, 215, 183, 1);
+}
+
+.footerimg {
+    margin-top: 62px;
+    margin-left: 42px;
+}
+
+.footera {
+    margin-top: 71px;
+}
+
+.footerapps {
+    margin-top: 65px;
+    margin-left: 331px;
+}
